@@ -41,7 +41,7 @@ describe('dogService',() => {
          } as Response)
 
         
-         expect(dogService.getRandomDogImage).rejects.toThrow("Dog API returned status 500")
+         await expect(dogService.getRandomDogImage).rejects.toThrow("Dog API returned status 500")
         
 
     })

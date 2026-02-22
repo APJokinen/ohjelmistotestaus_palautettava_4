@@ -44,7 +44,7 @@ describe("dogRoute",() => {
 
     })
     
-    test("invalid dogRoute resonse with invalid dogController return", async() => {
+    test("invalid dogRoute response with invalid dogController return", async() => {
 
         const controllerMock = {
     "success":false,
